@@ -27,8 +27,8 @@ html{scroll-padding-top:90px}
 .mbd-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
 .mbd-sp{display:none}
 .mbd-copy{position:absolute;left:9%;top:7.6%;width:80%;font-weight:600;letter-spacing:.025em}
-.mbd-copy h1{font:700 2.95cqw/1.6 "Shippori Mincho",serif;letter-spacing:.035em;color:#073d58;margin:0}
-.mbd-copy h1>span{white-space:nowrap;display:inline-block}
+.mbd-copy h1{font:700 2.95cqw/1.6 "Shippori Mincho",serif;letter-spacing:.035em;color:#9c2855;margin:0;text-shadow:0 1px 0 #fff}
+.mbd-copy h1>span{white-space:nowrap;display:inline-block;background:linear-gradient(0deg,#efd7e1 0 .1em,#ffffffde .1em 100%);box-shadow:.16em 0 0 #ffffffde,-.16em 0 0 #ffffffde}
 .mbd-copy h1>span+span{margin-left:.45em}
 .mbd-subtitle{font:700 2.06cqw/1.6 "Shippori Mincho",serif;margin-top:.65cqw;letter-spacing:.015em}
 .mbd-lead{font:600 1.05cqw/1.85 "Shippori Mincho",serif;width:45%;margin-top:.9cqw;letter-spacing:.01em}
@@ -39,10 +39,10 @@ html{scroll-padding-top:90px}
 .mbd-benefits p{font:700 1.13cqw/1.45 "Shippori Mincho",serif;letter-spacing:.025em;color:#182c42}
 .mbd-benefits strong{font-weight:700;color:var(--mbd-pink)}
 .mbd-crown{position:absolute;bottom:calc(100% + .6cqw);left:calc(50% - .8cqw);width:1.6cqw;height:1.1cqw;background:var(--mbd-pink);clip-path:polygon(0 18%,31% 45%,50% 0,69% 45%,100% 18%,85% 100%,15% 100%)}
-/* Approved option A: a quiet pale-blue offer, with the primary CTA below. */
-.mbd-offer{position:absolute;top:66.85%;left:9%;width:40%;height:10.7%;background:#e8f3f7;border:1px solid #bdd6e1;border-radius:4px;color:#245771;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:none}
+/* Approved option B: a pale-rose offer, with the primary CTA below. */
+.mbd-offer{position:absolute;top:66.85%;left:9%;width:40%;height:10.7%;background:#f8eef1;border:1px solid #e1c2ce;border-radius:4px;color:#8d4760;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:none}
 .mbd-offer-label{display:flex;align-items:center;justify-content:center;gap:1cqw;font:600 .8cqw/1.4 "Shippori Mincho",serif;letter-spacing:.16em}
-.mbd-offer-label:before,.mbd-offer-label:after{content:"";width:1.7cqw;height:1px;background:#9dbbc9}
+.mbd-offer-label:before,.mbd-offer-label:after{content:"";width:1.7cqw;height:1px;background:#c49aaa}
 .mbd-offer p{font:500 1.18cqw/1.2 "Shippori Mincho",serif;letter-spacing:.045em;display:flex;align-items:baseline;justify-content:center;gap:.65cqw;margin:.3cqw 0 .2cqw}
 .mbd-offer p strong{font-size:1.85cqw;line-height:1.15;font-weight:500}
 .mbd-offer-detail{font:500 .82cqw/1.4 "Shippori Mincho",serif;letter-spacing:.02em}
