@@ -1,0 +1,337 @@
+/*
+Copyright 2012 Google Inc. All Rights Reserved.
+
+This Font Software is licensed under the SIL Open Font License,
+Version 1.1.
+
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font
+creation efforts of academic and linguistic communities, and to
+provide a free and open framework in which fonts may be shared and
+improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply to
+any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software
+components as distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to,
+deleting, or substituting -- in part or in whole -- any of the
+components of the Original Version, by changing formats or by porting
+the Font Software to a new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed,
+modify, redistribute, and sell modified and unmodified copies of the
+Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in
+Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the
+corresponding Copyright Holder. This restriction only applies to the
+primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created using
+the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+*/
+@font-face {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(noto-serif-jp-400.woff2) format('woff2');
+  unicode-range: U+21-5f, U+61-7d, U+a9, U+d7, U+201c, U+2026, U+203a, U+2212, U+25b6, U+2713, U+3001-3002, U+3005, U+3008-3011, U+3042, U+3044, U+3046, U+3048, U+304a-304f, U+3051-305b, U+305d-3061, U+3063-306b, U+306d-3070, U+3072-3073, U+3076, U+3078-3079, U+307b-307c, U+307e-3082, U+3084, U+3086-308d, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6, U+30aa-30ab, U+30af-30b1, U+30b5, U+30b7-30b9, U+30bb, U+30bf, U+30c3, U+30c8-30cb, U+30ce, U+30d0-30d1, U+30d3-30d5, U+30d7-30d8, U+30da, U+30dc-30de, U+30e1, U+30e5, U+30e9-30eb, U+30ed, U+30ef, U+30f3, U+30f6, U+30fb-30fc, U+4e00, U+4e07-4e08, U+4e0a-4e0b, U+4e0d, U+4e26, U+4e2d, U+4e88, U+4eba, U+4eca-4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f1a, U+4f1d, U+4f53, U+4f55, U+4f7f, U+4f9b, U+4fc2, U+4fe1, U+500b, U+5099, U+5148, U+5165, U+5185-5186, U+5199, U+51fa, U+5206-5207, U+521d, U+5225, U+5236, U+524d, U+529b, U+52a0, U+52c9, U+52d5, U+5341, U+5358, U+53c2, U+53d6-53d7, U+53e3, U+53f0, U+53f7, U+5408, U+540d, U+5411, U+554f, U+55b6, U+571f, U+5728, U+57fa, U+5831, U+5834, U+5883, U+5897, U+58f0, U+5916, U+5927, U+592b, U+59cb, U+59ff, U+5b58, U+5b66, U+5b85, U+5b89, U+5b9a, U+5b9f, U+5ba2, U+5bb9, U+5bc4, U+5bfe, U+5c02, U+5c06, U+5c0f, U+5c11, U+5c4a, U+5e02, U+5e2b, U+5e2d, U+5e74, U+5e97, U+5ea7, U+5f0f, U+5f37, U+5f79, U+5f85, U+5f8c, U+5f97, U+5fc3, U+5fc5, U+5fdc, U+601d, U+6027, U+60a9, U+60c5, U+610f, U+611f, U+614b, U+6210, U+623b, U+6255, U+6271, U+6280, U+6301, U+6307, U+63a5, U+63b2, U+63d0, U+63f4, U+652f, U+6559, U+6574, U+6587, U+6599, U+65b9, U+65bd, U+65e2, U+65e5, U+660e, U+6627, U+6642, U+666f, U+66d6, U+6700, U+6708, U+671f, U+672a, U+672c, U+6765, U+6848, U+690d, U+696d, U+69d8, U+6a19, U+6a5f, U+6b63, U+6b8b, U+6bce, U+6c17, U+6c7a, U+6c96, U+6cc1, U+6cd5, U+6d3b, U+6d41, U+6d45, U+6df1, U+6dfb, U+6e80, U+6e96, U+7121, U+7269, U+72b6, U+72ec, U+7387, U+73fe, U+7406, U+74b0, U+751f, U+7528, U+7533, U+7591, U+7684, U+76ee, U+76f4, U+76f8, U+771f, U+7740, U+77e5, U+78ba, U+790e, U+79c1, U+79fb, U+7a0b, U+7a7a, U+7a93, U+7acb, U+7b4b, U+7b54, U+7bc9, U+7c21, U+7d04, U+7d30, U+7d39, U+7d44, U+7d4c, U+7d50, U+7d61, U+7d9a, U+7dcf, U+7dd2, U+7e04, U+7fd2, U+8003, U+8005, U+805e, U+80a9, U+80b2, U+819c, U+81ea, U+843d, U+8449, U+884c, U+8853, U+8981, U+898b, U+899a, U+89a7, U+89e3, U+8a00, U+8a18, U+8a71, U+8a73, U+8a8d, U+8a9e, U+8aac, U+8abf, U+8ac7, U+8b1b, U+8b58, U+8cc7, U+8cea, U+8d77, U+8df5, U+8eab, U+8efd, U+8f09, U+8fbc, U+8ff7, U+901a, U+9023, U+904b, U+91cd, U+91d1, U+9332, U+9577, U+9580, U+9589, U+958b, U+9593, U+95a2, U+9650, U+969b, U+96e3, U+9762, U+983c, U+984d, U+9854, U+98a8, U+9996, U+9a13, U+9ad8, U+ff01, U+ff08-ff09, U+ff0b-ff0c, U+ff0e, U+ff1a-ff1b, U+ff1f, U+ff3b, U+ff3d, U+ff5b-ff5d;
+}
+@font-face {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(noto-serif-jp-500.woff2) format('woff2');
+  unicode-range: U+21-5f, U+61-7d, U+a9, U+d7, U+201c, U+2026, U+203a, U+2212, U+25b6, U+2713, U+3001-3002, U+3005, U+3008-3011, U+3042, U+3044, U+3046, U+3048, U+304a-304f, U+3051-305b, U+305d-3061, U+3063-306b, U+306d-3070, U+3072-3073, U+3076, U+3078-3079, U+307b-307c, U+307e-3082, U+3084, U+3086-308d, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6, U+30aa-30ab, U+30af-30b1, U+30b5, U+30b7-30b9, U+30bb, U+30bf, U+30c3, U+30c8-30cb, U+30ce, U+30d0-30d1, U+30d3-30d5, U+30d7-30d8, U+30da, U+30dc-30de, U+30e1, U+30e5, U+30e9-30eb, U+30ed, U+30ef, U+30f3, U+30f6, U+30fb-30fc, U+4e00, U+4e07-4e08, U+4e0a-4e0b, U+4e0d, U+4e26, U+4e2d, U+4e88, U+4eba, U+4eca-4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f1a, U+4f1d, U+4f53, U+4f55, U+4f7f, U+4f9b, U+4fc2, U+4fe1, U+500b, U+5099, U+5148, U+5165, U+5185-5186, U+5199, U+51fa, U+5206-5207, U+521d, U+5225, U+5236, U+524d, U+529b, U+52a0, U+52c9, U+52d5, U+5341, U+5358, U+53c2, U+53d6-53d7, U+53e3, U+53f0, U+53f7, U+5408, U+540d, U+5411, U+554f, U+55b6, U+571f, U+5728, U+57fa, U+5831, U+5834, U+5883, U+5897, U+58f0, U+5916, U+5927, U+592b, U+59cb, U+59ff, U+5b58, U+5b66, U+5b85, U+5b89, U+5b9a, U+5b9f, U+5ba2, U+5bb9, U+5bc4, U+5bfe, U+5c02, U+5c06, U+5c0f, U+5c11, U+5c4a, U+5e02, U+5e2b, U+5e2d, U+5e74, U+5e97, U+5ea7, U+5f0f, U+5f37, U+5f79, U+5f85, U+5f8c, U+5f97, U+5fc3, U+5fc5, U+5fdc, U+601d, U+6027, U+60a9, U+60c5, U+610f, U+611f, U+614b, U+6210, U+623b, U+6255, U+6271, U+6280, U+6301, U+6307, U+63a5, U+63b2, U+63d0, U+63f4, U+652f, U+6559, U+6574, U+6587, U+6599, U+65b9, U+65bd, U+65e2, U+65e5, U+660e, U+6627, U+6642, U+666f, U+66d6, U+6700, U+6708, U+671f, U+672a, U+672c, U+6765, U+6848, U+690d, U+696d, U+69d8, U+6a19, U+6a5f, U+6b63, U+6b8b, U+6bce, U+6c17, U+6c7a, U+6c96, U+6cc1, U+6cd5, U+6d3b, U+6d41, U+6d45, U+6df1, U+6dfb, U+6e80, U+6e96, U+7121, U+7269, U+72b6, U+72ec, U+7387, U+73fe, U+7406, U+74b0, U+751f, U+7528, U+7533, U+7591, U+7684, U+76ee, U+76f4, U+76f8, U+771f, U+7740, U+77e5, U+78ba, U+790e, U+79c1, U+79fb, U+7a0b, U+7a7a, U+7a93, U+7acb, U+7b4b, U+7b54, U+7bc9, U+7c21, U+7d04, U+7d30, U+7d39, U+7d44, U+7d4c, U+7d50, U+7d61, U+7d9a, U+7dcf, U+7dd2, U+7e04, U+7fd2, U+8003, U+8005, U+805e, U+80a9, U+80b2, U+819c, U+81ea, U+843d, U+8449, U+884c, U+8853, U+8981, U+898b, U+899a, U+89a7, U+89e3, U+8a00, U+8a18, U+8a71, U+8a73, U+8a8d, U+8a9e, U+8aac, U+8abf, U+8ac7, U+8b1b, U+8b58, U+8cc7, U+8cea, U+8d77, U+8df5, U+8eab, U+8efd, U+8f09, U+8fbc, U+8ff7, U+901a, U+9023, U+904b, U+91cd, U+91d1, U+9332, U+9577, U+9580, U+9589, U+958b, U+9593, U+95a2, U+9650, U+969b, U+96e3, U+9762, U+983c, U+984d, U+9854, U+98a8, U+9996, U+9a13, U+9ad8, U+ff01, U+ff08-ff09, U+ff0b-ff0c, U+ff0e, U+ff1a-ff1b, U+ff1f, U+ff3b, U+ff3d, U+ff5b-ff5d;
+}
+@font-face {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(noto-serif-jp-600.woff2) format('woff2');
+  unicode-range: U+21-5f, U+61-7d, U+a9, U+d7, U+201c, U+2026, U+203a, U+2212, U+25b6, U+2713, U+3001-3002, U+3005, U+3008-3011, U+3042, U+3044, U+3046, U+3048, U+304a-304f, U+3051-305b, U+305d-3061, U+3063-306b, U+306d-3070, U+3072-3073, U+3076, U+3078-3079, U+307b-307c, U+307e-3082, U+3084, U+3086-308d, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6, U+30aa-30ab, U+30af-30b1, U+30b5, U+30b7-30b9, U+30bb, U+30bf, U+30c3, U+30c8-30cb, U+30ce, U+30d0-30d1, U+30d3-30d5, U+30d7-30d8, U+30da, U+30dc-30de, U+30e1, U+30e5, U+30e9-30eb, U+30ed, U+30ef, U+30f3, U+30f6, U+30fb-30fc, U+4e00, U+4e07-4e08, U+4e0a-4e0b, U+4e0d, U+4e26, U+4e2d, U+4e88, U+4eba, U+4eca-4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f1a, U+4f1d, U+4f53, U+4f55, U+4f7f, U+4f9b, U+4fc2, U+4fe1, U+500b, U+5099, U+5148, U+5165, U+5185-5186, U+5199, U+51fa, U+5206-5207, U+521d, U+5225, U+5236, U+524d, U+529b, U+52a0, U+52c9, U+52d5, U+5341, U+5358, U+53c2, U+53d6-53d7, U+53e3, U+53f0, U+53f7, U+5408, U+540d, U+5411, U+554f, U+55b6, U+571f, U+5728, U+57fa, U+5831, U+5834, U+5883, U+5897, U+58f0, U+5916, U+5927, U+592b, U+59cb, U+59ff, U+5b58, U+5b66, U+5b85, U+5b89, U+5b9a, U+5b9f, U+5ba2, U+5bb9, U+5bc4, U+5bfe, U+5c02, U+5c06, U+5c0f, U+5c11, U+5c4a, U+5e02, U+5e2b, U+5e2d, U+5e74, U+5e97, U+5ea7, U+5f0f, U+5f37, U+5f79, U+5f85, U+5f8c, U+5f97, U+5fc3, U+5fc5, U+5fdc, U+601d, U+6027, U+60a9, U+60c5, U+610f, U+611f, U+614b, U+6210, U+623b, U+6255, U+6271, U+6280, U+6301, U+6307, U+63a5, U+63b2, U+63d0, U+63f4, U+652f, U+6559, U+6574, U+6587, U+6599, U+65b9, U+65bd, U+65e2, U+65e5, U+660e, U+6627, U+6642, U+666f, U+66d6, U+6700, U+6708, U+671f, U+672a, U+672c, U+6765, U+6848, U+690d, U+696d, U+69d8, U+6a19, U+6a5f, U+6b63, U+6b8b, U+6bce, U+6c17, U+6c7a, U+6c96, U+6cc1, U+6cd5, U+6d3b, U+6d41, U+6d45, U+6df1, U+6dfb, U+6e80, U+6e96, U+7121, U+7269, U+72b6, U+72ec, U+7387, U+73fe, U+7406, U+74b0, U+751f, U+7528, U+7533, U+7591, U+7684, U+76ee, U+76f4, U+76f8, U+771f, U+7740, U+77e5, U+78ba, U+790e, U+79c1, U+79fb, U+7a0b, U+7a7a, U+7a93, U+7acb, U+7b4b, U+7b54, U+7bc9, U+7c21, U+7d04, U+7d30, U+7d39, U+7d44, U+7d4c, U+7d50, U+7d61, U+7d9a, U+7dcf, U+7dd2, U+7e04, U+7fd2, U+8003, U+8005, U+805e, U+80a9, U+80b2, U+819c, U+81ea, U+843d, U+8449, U+884c, U+8853, U+8981, U+898b, U+899a, U+89a7, U+89e3, U+8a00, U+8a18, U+8a71, U+8a73, U+8a8d, U+8a9e, U+8aac, U+8abf, U+8ac7, U+8b1b, U+8b58, U+8cc7, U+8cea, U+8d77, U+8df5, U+8eab, U+8efd, U+8f09, U+8fbc, U+8ff7, U+901a, U+9023, U+904b, U+91cd, U+91d1, U+9332, U+9577, U+9580, U+9589, U+958b, U+9593, U+95a2, U+9650, U+969b, U+96e3, U+9762, U+983c, U+984d, U+9854, U+98a8, U+9996, U+9a13, U+9ad8, U+ff01, U+ff08-ff09, U+ff0b-ff0c, U+ff0e, U+ff1a-ff1b, U+ff1f, U+ff3b, U+ff3d, U+ff5b-ff5d;
+}
+/*
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+*/
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(noto-sans-jp-400.woff2) format('woff2');
+  unicode-range: U+21-5f, U+61-7d, U+a9, U+d7, U+201c, U+2026, U+203a, U+2212, U+25b6, U+2713, U+3001-3002, U+3005, U+3008-3011, U+3042, U+3044, U+3046, U+3048, U+304a-304f, U+3051-305b, U+305d-3061, U+3063-306b, U+306d-3070, U+3072-3073, U+3076, U+3078-3079, U+307b-307c, U+307e-3082, U+3084, U+3086-308d, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6, U+30aa-30ab, U+30af-30b1, U+30b5, U+30b7-30b9, U+30bb, U+30bf, U+30c3, U+30c8-30cb, U+30ce, U+30d0-30d1, U+30d3-30d5, U+30d7-30d8, U+30da, U+30dc-30de, U+30e1, U+30e5, U+30e9-30eb, U+30ed, U+30ef, U+30f3, U+30f6, U+30fb-30fc, U+4e00, U+4e07-4e08, U+4e0a-4e0b, U+4e0d, U+4e26, U+4e2d, U+4e88, U+4eba, U+4eca-4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f1a, U+4f1d, U+4f53, U+4f55, U+4f7f, U+4f9b, U+4fc2, U+4fe1, U+500b, U+5099, U+5148, U+5165, U+5185-5186, U+5199, U+51fa, U+5206-5207, U+521d, U+5225, U+5236, U+524d, U+529b, U+52a0, U+52c9, U+52d5, U+5341, U+5358, U+53c2, U+53d6-53d7, U+53e3, U+53f0, U+53f7, U+5408, U+540d, U+5411, U+554f, U+55b6, U+571f, U+5728, U+57fa, U+5831, U+5834, U+5883, U+5897, U+58f0, U+5916, U+5927, U+592b, U+59cb, U+59ff, U+5b58, U+5b66, U+5b85, U+5b89, U+5b9a, U+5b9f, U+5ba2, U+5bb9, U+5bc4, U+5bfe, U+5c02, U+5c06, U+5c0f, U+5c11, U+5c4a, U+5e02, U+5e2b, U+5e2d, U+5e74, U+5e97, U+5ea7, U+5f0f, U+5f37, U+5f79, U+5f85, U+5f8c, U+5f97, U+5fc3, U+5fc5, U+5fdc, U+601d, U+6027, U+60a9, U+60c5, U+610f, U+611f, U+614b, U+6210, U+623b, U+6255, U+6271, U+6280, U+6301, U+6307, U+63a5, U+63b2, U+63d0, U+63f4, U+652f, U+6559, U+6574, U+6587, U+6599, U+65b9, U+65bd, U+65e2, U+65e5, U+660e, U+6627, U+6642, U+666f, U+66d6, U+6700, U+6708, U+671f, U+672a, U+672c, U+6765, U+6848, U+690d, U+696d, U+69d8, U+6a19, U+6a5f, U+6b63, U+6b8b, U+6bce, U+6c17, U+6c7a, U+6c96, U+6cc1, U+6cd5, U+6d3b, U+6d41, U+6d45, U+6df1, U+6dfb, U+6e80, U+6e96, U+7121, U+7269, U+72b6, U+72ec, U+7387, U+73fe, U+7406, U+74b0, U+751f, U+7528, U+7533, U+7591, U+7684, U+76ee, U+76f4, U+76f8, U+771f, U+7740, U+77e5, U+78ba, U+790e, U+79c1, U+79fb, U+7a0b, U+7a7a, U+7a93, U+7acb, U+7b4b, U+7b54, U+7bc9, U+7c21, U+7d04, U+7d30, U+7d39, U+7d44, U+7d4c, U+7d50, U+7d61, U+7d9a, U+7dcf, U+7dd2, U+7e04, U+7fd2, U+8003, U+8005, U+805e, U+80a9, U+80b2, U+819c, U+81ea, U+843d, U+8449, U+884c, U+8853, U+8981, U+898b, U+899a, U+89a7, U+89e3, U+8a00, U+8a18, U+8a71, U+8a73, U+8a8d, U+8a9e, U+8aac, U+8abf, U+8ac7, U+8b1b, U+8b58, U+8cc7, U+8cea, U+8d77, U+8df5, U+8eab, U+8efd, U+8f09, U+8fbc, U+8ff7, U+901a, U+9023, U+904b, U+91cd, U+91d1, U+9332, U+9577, U+9580, U+9589, U+958b, U+9593, U+95a2, U+9650, U+969b, U+96e3, U+9762, U+983c, U+984d, U+9854, U+98a8, U+9996, U+9a13, U+9ad8, U+ff01, U+ff08-ff09, U+ff0b-ff0c, U+ff0e, U+ff1a-ff1b, U+ff1f, U+ff3b, U+ff3d, U+ff5b-ff5d;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(noto-sans-jp-700.woff2) format('woff2');
+  unicode-range: U+21-5f, U+61-7d, U+a9, U+d7, U+201c, U+2026, U+203a, U+2212, U+25b6, U+2713, U+3001-3002, U+3005, U+3008-3011, U+3042, U+3044, U+3046, U+3048, U+304a-304f, U+3051-305b, U+305d-3061, U+3063-306b, U+306d-3070, U+3072-3073, U+3076, U+3078-3079, U+307b-307c, U+307e-3082, U+3084, U+3086-308d, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6, U+30aa-30ab, U+30af-30b1, U+30b5, U+30b7-30b9, U+30bb, U+30bf, U+30c3, U+30c8-30cb, U+30ce, U+30d0-30d1, U+30d3-30d5, U+30d7-30d8, U+30da, U+30dc-30de, U+30e1, U+30e5, U+30e9-30eb, U+30ed, U+30ef, U+30f3, U+30f6, U+30fb-30fc, U+4e00, U+4e07-4e08, U+4e0a-4e0b, U+4e0d, U+4e26, U+4e2d, U+4e88, U+4eba, U+4eca-4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f1a, U+4f1d, U+4f53, U+4f55, U+4f7f, U+4f9b, U+4fc2, U+4fe1, U+500b, U+5099, U+5148, U+5165, U+5185-5186, U+5199, U+51fa, U+5206-5207, U+521d, U+5225, U+5236, U+524d, U+529b, U+52a0, U+52c9, U+52d5, U+5341, U+5358, U+53c2, U+53d6-53d7, U+53e3, U+53f0, U+53f7, U+5408, U+540d, U+5411, U+554f, U+55b6, U+571f, U+5728, U+57fa, U+5831, U+5834, U+5883, U+5897, U+58f0, U+5916, U+5927, U+592b, U+59cb, U+59ff, U+5b58, U+5b66, U+5b85, U+5b89, U+5b9a, U+5b9f, U+5ba2, U+5bb9, U+5bc4, U+5bfe, U+5c02, U+5c06, U+5c0f, U+5c11, U+5c4a, U+5e02, U+5e2b, U+5e2d, U+5e74, U+5e97, U+5ea7, U+5f0f, U+5f37, U+5f79, U+5f85, U+5f8c, U+5f97, U+5fc3, U+5fc5, U+5fdc, U+601d, U+6027, U+60a9, U+60c5, U+610f, U+611f, U+614b, U+6210, U+623b, U+6255, U+6271, U+6280, U+6301, U+6307, U+63a5, U+63b2, U+63d0, U+63f4, U+652f, U+6559, U+6574, U+6587, U+6599, U+65b9, U+65bd, U+65e2, U+65e5, U+660e, U+6627, U+6642, U+666f, U+66d6, U+6700, U+6708, U+671f, U+672a, U+672c, U+6765, U+6848, U+690d, U+696d, U+69d8, U+6a19, U+6a5f, U+6b63, U+6b8b, U+6bce, U+6c17, U+6c7a, U+6c96, U+6cc1, U+6cd5, U+6d3b, U+6d41, U+6d45, U+6df1, U+6dfb, U+6e80, U+6e96, U+7121, U+7269, U+72b6, U+72ec, U+7387, U+73fe, U+7406, U+74b0, U+751f, U+7528, U+7533, U+7591, U+7684, U+76ee, U+76f4, U+76f8, U+771f, U+7740, U+77e5, U+78ba, U+790e, U+79c1, U+79fb, U+7a0b, U+7a7a, U+7a93, U+7acb, U+7b4b, U+7b54, U+7bc9, U+7c21, U+7d04, U+7d30, U+7d39, U+7d44, U+7d4c, U+7d50, U+7d61, U+7d9a, U+7dcf, U+7dd2, U+7e04, U+7fd2, U+8003, U+8005, U+805e, U+80a9, U+80b2, U+819c, U+81ea, U+843d, U+8449, U+884c, U+8853, U+8981, U+898b, U+899a, U+89a7, U+89e3, U+8a00, U+8a18, U+8a71, U+8a73, U+8a8d, U+8a9e, U+8aac, U+8abf, U+8ac7, U+8b1b, U+8b58, U+8cc7, U+8cea, U+8d77, U+8df5, U+8eab, U+8efd, U+8f09, U+8fbc, U+8ff7, U+901a, U+9023, U+904b, U+91cd, U+91d1, U+9332, U+9577, U+9580, U+9589, U+958b, U+9593, U+95a2, U+9650, U+969b, U+96e3, U+9762, U+983c, U+984d, U+9854, U+98a8, U+9996, U+9a13, U+9ad8, U+ff01, U+ff08-ff09, U+ff0b-ff0c, U+ff0e, U+ff1a-ff1b, U+ff1f, U+ff3b, U+ff3d, U+ff5b-ff5d;
+}
+/*
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+*/
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(oswald-600.woff2) format('woff2');
+  unicode-range: U+20, U+30-39, U+41, U+43, U+45-47, U+49, U+4c, U+4e-4f, U+52-55, U+61-63, U+65, U+69-6a, U+6e, U+72-73, U+75, U+79;
+}
