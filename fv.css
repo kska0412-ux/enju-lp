@@ -39,11 +39,12 @@ html{scroll-padding-top:90px}
 .mbd-benefits p{font:700 1.13cqw/1.45 "Shippori Mincho",serif;letter-spacing:.025em;color:#182c42}
 .mbd-benefits strong{font-weight:700;color:var(--mbd-pink)}
 .mbd-crown{position:absolute;bottom:calc(100% + .6cqw);left:calc(50% - .8cqw);width:1.6cqw;height:1.1cqw;background:var(--mbd-pink);clip-path:polygon(0 18%,31% 45%,50% 0,69% 45%,100% 18%,85% 100%,15% 100%)}
-.mbd-offer{position:absolute;top:63.3%;left:9%;width:40%;height:17.8%;background:linear-gradient(#17252c,#286b91);border-radius:3px;color:#fff;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 0 1px #13364720}
-.mbd-offer-label{display:flex;align-items:center;justify-content:center;gap:1cqw;font:600 1.1cqw/1.4 "Shippori Mincho",serif;letter-spacing:.16em}
-.mbd-offer-label:before,.mbd-offer-label:after{content:"";width:1.7cqw;height:1px;background:#dbe6ed}
-.mbd-offer p{font:500 1.9cqw/1.2 "Shippori Mincho",serif;letter-spacing:.045em;display:flex;align-items:baseline;justify-content:center;gap:1.1cqw;margin:.3cqw 0 .45cqw}
-.mbd-offer p strong{font-size:3.7cqw;line-height:1.15;font-weight:500}
+/* Approved option A: a quiet pale-blue offer, with the primary CTA below. */
+.mbd-offer{position:absolute;top:66.85%;left:9%;width:40%;height:10.7%;background:#e8f3f7;border:1px solid #bdd6e1;border-radius:4px;color:#245771;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:none}
+.mbd-offer-label{display:flex;align-items:center;justify-content:center;gap:1cqw;font:600 .8cqw/1.4 "Shippori Mincho",serif;letter-spacing:.16em}
+.mbd-offer-label:before,.mbd-offer-label:after{content:"";width:1.7cqw;height:1px;background:#9dbbc9}
+.mbd-offer p{font:500 1.18cqw/1.2 "Shippori Mincho",serif;letter-spacing:.045em;display:flex;align-items:baseline;justify-content:center;gap:.65cqw;margin:.3cqw 0 .2cqw}
+.mbd-offer p strong{font-size:1.85cqw;line-height:1.15;font-weight:500}
 .mbd-offer-detail{font:500 .82cqw/1.4 "Shippori Mincho",serif;letter-spacing:.02em}
 .mbd-actions{position:absolute;left:9%;bottom:8%;width:40%;display:flex;gap:12px;align-items:flex-end}
 .mbd-action{position:relative;display:block;flex:1;min-width:0;height:4.05cqw;text-align:center;color:white;font-family:"Shippori Mincho",serif;white-space:nowrap;transition:filter .2s}
@@ -64,13 +65,14 @@ html{scroll-padding-top:90px}
   .mbd-header-cta{display:none}
   .mbd-board{aspect-ratio:780/1684}
   .mbd-sp{display:block}
-  .mbd-photo{right:-2%;top:20.7%;width:65%;height:44.6%;mask-image:linear-gradient(90deg,transparent,#000 31%),linear-gradient(180deg,transparent,#000 6%,#000 93%,transparent);mask-composite:intersect}
+  .mbd-photo{right:-2%;top:1.5%;width:65%;height:57%;mask-image:linear-gradient(90deg,transparent,#000 31%),linear-gradient(180deg,transparent,#000 6%,#000 93%,transparent);mask-composite:intersect}
   .mbd-photo img{object-fit:cover;object-position:62% center}
-  .mbd-benefits{left:4.2%;top:5.6%;width:91.6%;gap:7.7cqw 3.1cqw}
+  /* Keep the desktop reading order: copy, learning cards, offer, actions. */
+  .mbd-benefits{left:4.2%;top:42.8%;width:91.6%;gap:7.7cqw 3.1cqw}
   .mbd-benefits>div{min-height:12.8cqw;border-width:.45cqw}
   .mbd-benefits p{font-size:3.45cqw;line-height:1.45}
   .mbd-crown{width:5.4cqw;height:3.9cqw;left:calc(50% - 2.7cqw);bottom:calc(100% + 1.65cqw)}
-  .mbd-copy{top:25.5%;left:3.1%;width:93.8%}
+  .mbd-copy{top:3.6%;left:3.1%;width:93.8%}
   .mbd-copy h1{font-size:6.4cqw;line-height:1.6;letter-spacing:0}
   .mbd-copy h1>span{display:block}
   .mbd-copy h1>span+span{margin:0}
@@ -78,11 +80,11 @@ html{scroll-padding-top:90px}
   .mbd-lead{font-size:3.05cqw;line-height:1.85;width:53.5%;margin-top:3.15cqw;letter-spacing:0}
   .mbd-lead>span{display:block;white-space:nowrap}
   .mbd-lead>span:nth-child(2):after{display:none}
-  .mbd-offer{top:60.4%;left:3.1%;width:93.8%;height:15.2%;border-radius:3px}
-  .mbd-offer-label{font-size:3.4cqw;gap:2.6cqw;line-height:1.5}
+  .mbd-offer{top:63.45%;left:3.1%;width:93.8%;height:9.1%;border-radius:4px}
+  .mbd-offer-label{font-size:2.6cqw;gap:2.6cqw;line-height:1.5}
   .mbd-offer-label:before,.mbd-offer-label:after{width:5cqw}
-  .mbd-offer p{font-size:6.2cqw;gap:2cqw;margin:.55cqw 0 1cqw}
-  .mbd-offer p strong{font-size:11.5cqw;line-height:1.15}
+  .mbd-offer p{font-size:4.1cqw;gap:1.5cqw;margin:.55cqw 0 .4cqw}
+  .mbd-offer p strong{font-size:5.75cqw;line-height:1.15}
   .mbd-offer-detail{font-size:2.65cqw;line-height:1.5}
   .mbd-actions{top:76.7%;bottom:auto;left:8%;width:84%;flex-direction:column;gap:2.56cqw;align-items:stretch}
   .mbd-action{height:17.4cqw;flex:none}
